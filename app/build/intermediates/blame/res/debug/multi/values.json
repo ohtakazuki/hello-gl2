@@ -1,0 +1,172 @@
+[
+    {
+        "outputFile": "D:\\Asyz\\Pepper\\android-ndk-master\\hello-gl2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 66,
+                    "endOffset": 117
+                },
+                "from": {
+                    "file": "D:\\Asyz\\Pepper\\android-ndk-master\\hello-gl2\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 66,
+                        "endOffset": 118
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 122,
+                    "endColumn": 50,
+                    "endOffset": 168
+                },
+                "from": {
+                    "file": "D:\\Asyz\\Pepper\\android-ndk-master\\hello-gl2\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 123,
+                        "endColumn": 50,
+                        "endOffset": 169
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 173,
+                    "endLine": 10,
+                    "endColumn": 12,
+                    "endOffset": 459
+                },
+                "from": {
+                    "file": "D:\\Asyz\\Pepper\\android-ndk-master\\hello-gl2\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 186,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 472
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 464,
+                    "endLine": 13,
+                    "endColumn": 12,
+                    "endOffset": 619
+                },
+                "from": {
+                    "file": "D:\\Asyz\\Pepper\\android-ndk-master\\hello-gl2\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 510,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 665
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\kazuki.ota.ATIKA\\AndroidStudioProjects\\hello-gl2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 66,
+                    "endOffset": 117
+                },
+                "from": {
+                    "file": "C:\\Users\\kazuki.ota.ATIKA\\AndroidStudioProjects\\hello-gl2\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 66,
+                        "endOffset": 118
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 122,
+                    "endColumn": 50,
+                    "endOffset": 168
+                },
+                "from": {
+                    "file": "C:\\Users\\kazuki.ota.ATIKA\\AndroidStudioProjects\\hello-gl2\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 123,
+                        "endColumn": 50,
+                        "endOffset": 169
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 173,
+                    "endLine": 10,
+                    "endColumn": 12,
+                    "endOffset": 459
+                },
+                "from": {
+                    "file": "C:\\Users\\kazuki.ota.ATIKA\\AndroidStudioProjects\\hello-gl2\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 186,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 472
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 464,
+                    "endLine": 13,
+                    "endColumn": 12,
+                    "endOffset": 619
+                },
+                "from": {
+                    "file": "C:\\Users\\kazuki.ota.ATIKA\\AndroidStudioProjects\\hello-gl2\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 510,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 665
+                    }
+                }
+            }
+        ]
+    }
+]

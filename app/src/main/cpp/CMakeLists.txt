@@ -1,0 +1,101 @@
+cmake_minimum_required(VERSION 3.4.1)
+
+# now build app's shared lib
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -Wall")
+
+add_library(gl2jni SHARED
+            gl_code.cpp
+            gl-shared/GLApplication.c
+            gl-shared/SampleList.c
+            gl-shared/samples/chapter05/sample_clear.c
+            gl-shared/samples/chapter05/sample_random_clear.c
+            gl-shared/samples/chapter05/sample_skelton.c
+            gl-shared/samples/chapter06/sample_rendering_triangle.c
+            gl-shared/samples/chapter06/sample_rendering_triangle_function.c
+            gl-shared/samples/chapter06/sample_rendering_triangle_noviewport.c
+            gl-shared/samples/chapter07/sample_rendering_line.c
+            gl-shared/samples/chapter07/sample_rendering_point.c
+            gl-shared/samples/chapter07/sample_rendering_quad.c
+            gl-shared/samples/chapter08/sample_shader_uniform_color.c
+            gl-shared/samples/chapter08/sample_shader_uniform_pos.c
+            gl-shared/samples/chapter08/sample_shader_varying_color.c
+            gl-shared/samples/chapter09/sample_load_texture.c
+            gl-shared/samples/chapter10/sample_load_texture_uvrange.c
+            gl-shared/samples/chapter10/sample_texture_op_filter_mag.c
+            gl-shared/samples/chapter10/sample_texture_op_filter_min.c
+            gl-shared/samples/chapter10/sample_texture_op_mipmap_gen.c
+            gl-shared/samples/chapter10/sample_texture_op_mipmap_GL_LINEAR_MIPMAP_LINEAR.c
+            gl-shared/samples/chapter10/sample_texture_op_mipmap_GL_LINEAR_MIPMAP_LINEAR_ex.c
+            gl-shared/samples/chapter10/sample_texture_op_mipmap_GL_LINEAR_MIPMAP_LINEAR_ex2.c
+            gl-shared/samples/chapter10/sample_texture_op_mipmap_GL_LINEAR_MIPMAP_NEAREST.c
+            gl-shared/samples/chapter10/sample_texture_op_mipmap_GL_NEAREST_MIPMAP_LINEAR.c
+            gl-shared/samples/chapter10/sample_texture_op_mipmap_GL_NEAREST_MIPMAP_NEAREST.c
+            gl-shared/samples/chapter10/sample_texture_op_npot.c
+            gl-shared/samples/chapter10/sample_texture_op_npot_auto.c
+            gl-shared/samples/chapter10/sample_texture_op_npot_auto_repeat.c
+            gl-shared/samples/chapter10/sample_texture_op_npot_repeat.c
+            gl-shared/samples/chapter10/sample_texture_op_wrap_clamp.c
+            gl-shared/samples/chapter10/sample_texture_op_wrap_mirrored_repeat.c
+            gl-shared/samples/chapter10/sample_texture_op_wrap_repeat.c
+            gl-shared/samples/chapter11/sample_load_texture_2unit.c
+            gl-shared/samples/chapter11/sample_load_texture_channels.c
+            gl-shared/samples/chapter11/sample_load_texture_function.c
+            gl-shared/samples/chapter11/sample_texture_use_2.c
+            gl-shared/samples/chapter12/sample_rendering_pixel_quad.c
+            gl-shared/samples/chapter12/sample_rendering_pixel_quad_direct_tex.c
+            gl-shared/samples/chapter12/sample_rendering_pixel_quad_pixel_uv_1px.c
+            gl-shared/samples/chapter12/sample_rendering_textureatlas.c
+            gl-shared/samples/chapter13/sample_rendering_matrix_mult_trs.c
+            gl-shared/samples/chapter13/sample_rendering_matrix_rotate.c
+            gl-shared/samples/chapter13/sample_rendering_matrix_rotate2.c
+            gl-shared/samples/chapter13/sample_rendering_matrix_scale.c
+            gl-shared/samples/chapter13/sample_rendering_matrix_scale2.c
+            gl-shared/samples/chapter13/sample_rendering_matrix_srt.c
+            gl-shared/samples/chapter13/sample_rendering_matrix_srt_transpose.c
+            gl-shared/samples/chapter13/sample_rendering_matrix_srt_transpose_notsupport.c
+            gl-shared/samples/chapter13/sample_rendering_matrix_translate.c
+            gl-shared/samples/chapter13/sample_rendering_matrix_trs.c
+            gl-shared/samples/chapter14/sample_rendering_matrix_sprite.c
+            gl-shared/samples/chapter14/sample_rendering_matrix_sprite_pos_function.c
+            gl-shared/samples/chapter14/sample_rendering_matrix_sprite_uv.c
+            gl-shared/samples/chapter14/sample_rendering_matrix_sprite_uv_function.c
+            gl-shared/samples/chapter14/sample_rendering_matrix_spriterotate.c
+            gl-shared/samples/chapter14/sample_rendering_matrix_spriterotate_aspect.c
+            gl-shared/samples/chapter15/sample_blend_enable.c
+            gl-shared/samples/chapter15/sample_load_compress_texture_etc1_ktx.c
+            gl-shared/samples/chapter15/sample_load_compress_texture_etc1_pkm.c
+            gl-shared/samples/chapter15/sample_load_compress_texture_pvr_pvrtc.c
+            gl-shared/support/support.c
+            gl-shared/support/support_gl.c
+            gl-shared/support/support_gl_CompressedTexture_KtxImage.c
+            gl-shared/support/support_gl_CompressedTexture_PkmImage.c
+            gl-shared/support/support_gl_CompressedTexture_PvrtcImage.c
+            gl-shared/support/support_gl_Shader.c
+            gl-shared/support/support_gl_Sprite.c
+            gl-shared/support/support_gl_Texture.c
+            gl-shared/support/support_gl_Texture_RawPixelImage.c
+            gl-shared/support/support_gl_Vector.c
+            gl-shared/support/support_RawData.c
+            impl/ES20_impl.c
+            impl/ES20App_impl.c
+            impl/NDKApplication_impl.c
+            impl/RawData_impl.c
+            impl/RawPixelImage_impl.c
+            support_ndk.c)
+
+# add lib dependencies
+target_link_libraries(gl2jni
+                      android
+                      log 
+                      EGL
+                      GLESv2)
+
+include_directories(
+            support_ndk.h
+            impl
+            gl-shared
+            gl-shared/support
+            include/GLES2/gl2.h
+            include/GLES2/gl2ext.h
+            include/GLES2/gl2platform.h
+            )

@@ -1,0 +1,3 @@
+C:/Users/kazuki.ota.ATIKA/AndroidStudioProjects/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/gl2jni.dir
+C:/Users/kazuki.ota.ATIKA/AndroidStudioProjects/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/kazuki.ota.ATIKA/AndroidStudioProjects/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir

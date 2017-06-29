@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\kazuki.ota.ATIKA\\AndroidStudioProjects\\hello-gl2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\kazuki.ota.ATIKA\\AndroidStudioProjects\\hello-gl2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Asyz\\Pepper\\android-ndk-master\\hello-gl2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "D:\\Asyz\\Pepper\\android-ndk-master\\hello-gl2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    }
+]

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\Asyz\Pepper\android-ndk-master\hello-gl2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="D:\Asyz\Pepper\android-ndk-master\hello-gl2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e8706676aad7772619fed7a2c55db45ff1cfece9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Asyz\Pepper\android-ndk-master\hello-gl2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45c5019d0b6882e18381721223b385a0fbe76daf">
+        <dex dex="D:\Asyz\Pepper\android-ndk-master\hello-gl2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_bf11f7fcc633809988c6a83e981e617c6642c253\classes.dex" />
+    </item>
+
+</items>

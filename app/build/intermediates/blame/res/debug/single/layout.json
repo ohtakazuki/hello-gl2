@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\kazuki.ota.ATIKA\\AndroidStudioProjects\\hello-gl2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_menu.xml",
+        "source": "C:\\Users\\kazuki.ota.ATIKA\\AndroidStudioProjects\\hello-gl2\\app\\src\\main\\res\\layout\\activity_menu.xml"
+    },
+    {
+        "merged": "D:\\Asyz\\Pepper\\android-ndk-master\\hello-gl2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_menu.xml",
+        "source": "D:\\Asyz\\Pepper\\android-ndk-master\\hello-gl2\\app\\src\\main\\res\\layout\\activity_menu.xml"
+    },
+    {
+        "merged": "D:\\Asyz\\Pepper\\android-ndk-master\\hello-gl2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_menu_title.xml",
+        "source": "D:\\Asyz\\Pepper\\android-ndk-master\\hello-gl2\\app\\src\\main\\res\\layout\\view_menu_title.xml"
+    },
+    {
+        "merged": "C:\\Users\\kazuki.ota.ATIKA\\AndroidStudioProjects\\hello-gl2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_menu_header.xml",
+        "source": "C:\\Users\\kazuki.ota.ATIKA\\AndroidStudioProjects\\hello-gl2\\app\\src\\main\\res\\layout\\view_menu_header.xml"
+    },
+    {
+        "merged": "D:\\Asyz\\Pepper\\android-ndk-master\\hello-gl2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_menu_header.xml",
+        "source": "D:\\Asyz\\Pepper\\android-ndk-master\\hello-gl2\\app\\src\\main\\res\\layout\\view_menu_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\kazuki.ota.ATIKA\\AndroidStudioProjects\\hello-gl2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_menu_title.xml",
+        "source": "C:\\Users\\kazuki.ota.ATIKA\\AndroidStudioProjects\\hello-gl2\\app\\src\\main\\res\\layout\\view_menu_title.xml"
+    }
+]
