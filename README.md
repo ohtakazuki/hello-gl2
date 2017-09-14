@@ -1,3 +1,5 @@
+ohtakazuki/AndroidでOpenGLのCライブラリを読み込めないか、検証用です。
+
 Hello GL2
 =========
 Hello GL2 is an Android C++ sample that draws a triangle using GLES 2.0 API.
